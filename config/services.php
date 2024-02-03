@@ -31,4 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'OpenWeatherMapAPI' => [
+        'key' => env('OpenWeatherMapAPI', '9b0bc442e14a409985fd2a621a23a4ee'),
+    ],
+
 ];

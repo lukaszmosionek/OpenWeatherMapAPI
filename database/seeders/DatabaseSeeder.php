@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\City;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,5 +20,13 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        City::create([
+                'name' => 'Warszawa',
+                'latitude' => '52.23',
+                'longitude' => '21.01',
+                'units' => 'metric',
+                'sign' => '°C',
+        ]);
     }
 }
