@@ -5,7 +5,7 @@ Preferowana wersja php 8.3.2
 Zainstalowany composer: https://getcomposer.org/download/
 
 
- - Wpisz w konsole: git clone https://github.com/lukaszmosionek/rekrutacja-temp-warsaw.git
+ - Wpisz w konsole: git clone <repo-url-here>
  - Wpisz w konsole: cd rekrutacja-temp-warsaw
  - Wpisz w konsole: composer install
  - Skopiuj plik .env.example do .env i uzupełnij w nim sekcje bazy danych
